@@ -1,6 +1,6 @@
 # Wallapop Reviews - Reporte de Abusos y Malas Prácticas
 
-Este repositorio contiene el código fuente de la web [¿Es Wallapop una Estafa?](https://wallapop-reviews.github.io) (o el dominio que se asigne), un espacio dedicado a documentar, analizar y exponer las malas prácticas, estafas y fallos sistémicos en la plataforma de compraventa Wallapop, especialmente en su sistema de Wallapop Envíos y su seguro de protección.
+Este repositorio contiene el código fuente de la web [¿Es Wallapop una Estafa?](https://alexdcd.github.io/wallapop-reviews/) (o el dominio que se asigne), un espacio dedicado a documentar, analizar y exponer las malas prácticas, estafas y fallos sistémicos en la plataforma de compraventa Wallapop, especialmente en su sistema de Wallapop Envíos y su seguro de protección.
 
 ## 🎯 Objetivo
 
@@ -15,7 +15,7 @@ El objetivo de este proyecto es:
 Este es un proyecto comunitario. Si has sido víctima de una estafa en Wallapop o conoces casos documentados, puedes ayudar de las siguientes formas:
 
 ### 1. Reportar un nuevo caso
-Si quieres que tu caso aparezca en la web o simplemente quieres dejar constancia técnica del abuso, abre una **[Issue](https://github.com/alexdc/wallapop-reviews/issues/new/choose)** usando la plantilla de "Reporte de Abuso".
+Si quieres que tu caso aparezca en la web o simplemente quieres dejar constancia técnica del abuso, abre una **[Issue](https://github.com/alexdcd/wallapop-reviews/issues/new/choose)** usando la plantilla de "Reporte de Abuso".
 
 ### 2. Mejorar el contenido
 Si eres desarrollador, puedes proponer cambios en el contenido o en el diseño de la web (HTML/CSS) mediante un **Pull Request**.
@@ -34,4 +34,4 @@ Este sitio se basa en testimonios públicos y experiencias personales compartida
 -   Optimizado para bots de IA y motores de búsqueda.
 
 ---
-Creado por [Alex DC](https://github.com/alexdc)
+Creado por [Alex DC](https://github.com/alexdcd)
