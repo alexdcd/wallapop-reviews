@@ -1,0 +1,67 @@
+name: Reportar Abuso / Estafa
+description: Utiliza esta plantilla para documentar un nuevo caso de abuso o estafa en Wallapop.
+title: "[REPORTE] Breve descripción del caso"
+labels: ["abuso", "estafa"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### Gracias por compartir tu caso. 
+        Tu reporte ayudará a otros usuarios a estar prevenidos y servirá como base de datos de malas prácticas.
+  - type: input
+    id: producto
+    attributes:
+      label: Producto implicado
+      description: Ejemplo: iPhone 13 Pro, Nintendo Switch, etc.
+      placeholder: Escribe el producto aquí
+    validations:
+      required: true
+  - type: input
+    id: cuantia
+    attributes:
+      label: Cuantía económica (aprox.)
+      description: ¿Cuánto dinero has perdido o tienes retenido?
+      placeholder: Ejemplo: 450€
+    validations:
+      required: true
+  - type: dropdown
+    id: tipo-abuso
+    attributes:
+      label: Tipo de abuso / estafa
+      options:
+        - Envio recibido roto y el seguro no cubre
+        - Producto devuelto distinto al enviado (engaño al vendedor)
+        - Cuenta bloqueada con dinero en el monedero
+        - Falta de respuesta soporte técnico (> 48h)
+        - Estafa de pago externo (bizum/transferencia)
+        - Otro
+    validations:
+      required: true
+  - type: textarea
+    id: descripcion
+    attributes:
+      label: Descripción detallada de los hechos
+      description: Explica cronológicamente qué ha pasado.
+      placeholder: El día X compré Y, al llegar estaba roto...
+    validations:
+      required: true
+  - type: textarea
+    id: respuesta-soporte
+    attributes:
+      label: Respuesta de Wallapop
+      description: ¿Qué te han dicho desde soporte o el seguro?
+      placeholder: Me dicen que el embalaje no era adecuado...
+  - type: textarea
+    id: pruebas
+    attributes:
+      label: Pruebas y evidencia
+      description: Puedes pegar enlaces a capturas de pantalla (Imgur, etc.) o hilos de redes sociales.
+      placeholder: Enlace a captura...
+  - type: checkboxes
+    id: terminos
+    attributes:
+      label: Confirmación
+      options:
+        - label: Confirmo que la información proporcionada es veraz y no contiene datos personales sensibles de terceros.
+          required: true
