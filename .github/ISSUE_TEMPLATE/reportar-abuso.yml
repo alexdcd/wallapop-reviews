@@ -1,14 +1,14 @@
-name: Reportar Abuso / Estafa
-description: Utiliza esta plantilla para documentar un nuevo caso de abuso o estafa en Wallapop.
-title: "[REPORTE] Breve descripción del caso"
-labels: ["abuso", "estafa"]
+name: Reportar Incidencia / Desprotección
+description: Utiliza esta plantilla para documentar una incidencia grave o falta de protección percibida en Wallapop.
+title: "[INCIDENCIA] Breve descripción del caso"
+labels: ["incidencia", "desprotección"]
 assignees: []
 body:
   - type: markdown
     attributes:
       value: |
-        ### Gracias por compartir tu caso. 
-        Tu reporte ayudará a otros usuarios a estar prevenidos y servirá como base de datos de malas prácticas.
+        ### Gracias por compartir tu experiencia. 
+        Tu reporte ayudará a la comunidad a conocer riesgos reales y servirá como base de datos de prácticas reportadas.
   - type: input
     id: producto
     attributes:
@@ -21,20 +21,20 @@ body:
     id: cuantia
     attributes:
       label: Cuantía económica (aprox.)
-      description: ¿Cuánto dinero has perdido o tienes retenido?
+      description: ¿A cuánto asciende el perjuicio económico estimado?
       placeholder: Ejemplo: 450€
     validations:
       required: true
   - type: dropdown
-    id: tipo-abuso
+    id: tipo-incidencia
     attributes:
-      label: Tipo de abuso / estafa
+      label: Tipo de incidencia / desprotección
       options:
         - Envio recibido roto y el seguro no cubre
-        - Producto devuelto distinto al enviado (engaño al vendedor)
+        - Producto devuelto distinto al enviado (irregularidad en devolución)
         - Cuenta bloqueada con dinero en el monedero
         - Falta de respuesta soporte técnico (> 48h)
-        - Estafa de pago externo (bizum/transferencia)
+        - Incidencia con pago externo (bizum/transferencia)
         - Otro
     validations:
       required: true
