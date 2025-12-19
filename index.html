@@ -33,6 +33,7 @@
             --red-dark: #8b0000;
             --gray: #6b6b6b;
             --gray-light: #e8e8e8;
+            --dark: #1a1a1a;
         }
 
         * {
@@ -265,14 +266,32 @@
             color: var(--gray);
         }
 
+        .source-link {
+            display: block;
+            padding: 1rem;
+            background: white;
+            border: 1px solid var(--gray-light);
+            text-decoration: none;
+            color: var(--black);
+            transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+            position: relative;
+        }
+
         .source-link:hover {
-            background: var(--dark) !important;
-            color: var(--cream) !important;
-            border-color: var(--dark) !important;
+            transform: translateY(-4px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+            border-color: var(--red);
+            background: white !important;
+            /* Ensure it doesn't disappear */
+        }
+
+        .source-link strong {
+            color: var(--red);
+            transition: color 0.3s ease;
         }
 
         .source-link:hover strong {
-            color: var(--cream) !important;
+            color: var(--red-dark) !important;
         }
 
         /* Modus Operandi */
@@ -988,32 +1007,28 @@
             <div
                 style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1rem; margin-bottom: 1rem;">
                 <a href="https://es.trustpilot.com/review/wallapop.com" target="_blank" rel="noopener noreferrer"
-                    class="source-link"
-                    style="display: block; padding: 1rem; background: var(--cream); border: 1px solid #ddd; text-decoration: none; color: var(--dark); transition: all 0.2s;">
-                    <strong style="color: var(--red);">Trustpilot</strong><br>
+                    class="source-link">
+                    <strong>Trustpilot</strong><br>
                     <span style="font-size: 0.9rem;">14.077 opiniones · 1.3/5 · "Muy malo"</span>
                 </a>
 
 
                 <a href="https://forocoches.com/foro/showthread.php?t=10520598" target="_blank"
-                    rel="noopener noreferrer" class="source-link"
-                    style="display: block; padding: 1rem; background: var(--cream); border: 1px solid #ddd; text-decoration: none; color: var(--dark); transition: all 0.2s;">
-                    <strong style="color: var(--red);">Forocoches</strong><br>
+                    rel="noopener noreferrer" class="source-link">
+                    <strong>Forocoches</strong><br>
                     <span style="font-size: 0.9rem;">"Nunca hagas envíos por Wallapop" · Nov 2025</span>
                 </a>
 
                 <a href="https://www.ocu.org/reclamar/lista-reclamaciones-publicas/problema-con-envio-wallapop/CPTES01831933-88"
-                    target="_blank" rel="noopener noreferrer" class="source-link"
-                    style="display: block; padding: 1rem; background: var(--cream); border: 1px solid #ddd; text-decoration: none; color: var(--dark); transition: all 0.2s;">
-                    <strong style="color: var(--red);">OCU</strong><br>
+                    target="_blank" rel="noopener noreferrer" class="source-link">
+                    <strong>OCU</strong><br>
                     <span style="font-size: 0.9rem;">Reclamaciones públicas contra Wallapop</span>
                 </a>
 
                 <a href="https://www.youtube.com/watch?v=-WMbCcS5zqQ" target="_blank" rel="noopener noreferrer"
-                    class="source-link"
-                    style="display: block; padding: 1.5rem; background: var(--cream); border: 2px solid var(--red); text-decoration: none; color: var(--dark); transition: all 0.2s; grid-column: span 2;">
-                    <strong style="color: var(--red); font-size: 1.2rem;">YouTube — El Caso ShaunTrack</strong><br>
-                    <p style="font-size: 1rem; margin-top: 0.5rem; line-height: 1.4;">
+                    class="source-link highlighted-source" style="grid-column: span 2; border: 2px solid var(--red);">
+                    <strong style="font-size: 1.2rem;">YouTube — El Caso ShaunTrack</strong><br>
+                    <p style="font-size: 1rem; margin-top: 0.5rem; line-height: 1.4; color: var(--black);">
                         YouTuber con +3M suscriptores que documentó una pérdida total. Wallapop solo reaccionó cuando el
                         vídeo se hizo viral.
                         <strong>Un caso prácticamente idéntico al que yo he sufrido (y que detallo más abajo)</strong>:
@@ -1022,9 +1037,8 @@
                 </a>
 
                 <a href="https://www.elotrolado.net/hilo_problema-wallapop-envio-a-traves-de-wallapay_2415320"
-                    target="_blank" rel="noopener noreferrer" class="source-link"
-                    style="display: block; padding: 1rem; background: var(--cream); border: 1px solid #ddd; text-decoration: none; color: var(--dark); transition: all 0.2s;">
-                    <strong style="color: var(--red);">ElOtroLado</strong><br>
+                    target="_blank" rel="noopener noreferrer" class="source-link">
+                    <strong>ElOtroLado</strong><br>
                     <span style="font-size: 0.9rem;">Problemas con Wallapay · Múltiples hilos</span>
                 </a>
             </div>
