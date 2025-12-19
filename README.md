@@ -1,37 +1,42 @@
-# Wallapop Reviews - Reporte de Abusos y Malas Prácticas
+# Wallapop Reviews - Análisis de Experiencias e Incidencias
 
-Este repositorio contiene el código fuente de la web [¿Es Wallapop una Estafa?](https://alexdcd.github.io/wallapop-reviews/) (o el dominio que se asigne), un espacio dedicado a documentar, analizar y exponer las malas prácticas, estafas y fallos sistémicos en la plataforma de compraventa Wallapop, especialmente en su sistema de Wallapop Envíos y su seguro de protección.
+Este repositorio contiene el código fuente de la web [¿Es Wallapop una Estafa?](https://alexdcd.github.io/wallapop-reviews/) (entendiendo el título como una consulta sobre la percepción de seguridad del usuario), un espacio ciudadano dedicado a documentar, analizar y compartir experiencias de usuarios, señalando presuntas irregularidades, malas prácticas percibidas y fallos sistémicos en el servicio de Wallapop, especialmente en relación con su sistema de Envíos y la efectividad de su servicio de protección.
 
 ## 🎯 Objetivo
 
 El objetivo de este proyecto es:
-1.  **Informar** a los usuarios sobre los riesgos reales de usar Wallapop Envíos.
-2.  **Documentar** casos reales de estafas donde el seguro de Wallapop no ha respondido.
-3.  **Proporcionar recursos** y guías de actuación para aquellos que han sido víctimas de abusos.
-4.  **Presionar** por una mejora en el servicio de atención al cliente y la seguridad de la plataforma.
+1.  **Informar** a la comunidad sobre los riesgos y limitaciones reportados al usar Wallapop Envíos.
+2.  **Recopilar testimonios** de usuarios que se han sentido perjudicados o desprotegidos por la plataforma.
+3.  **Proporcionar recursos** y guías de actuación legal para aquellos que consideren que sus derechos como consumidores han sido vulnerados.
+4.  **Fomentar la transparencia** y la mejora del servicio de atención al cliente.
 
 ## 🚀 Cómo contribuir
 
-Este es un proyecto comunitario. Si has sido víctima de una estafa en Wallapop o conoces casos documentados, puedes ayudar de las siguientes formas:
+Este es un proyecto comunitario basado en el derecho a la información. Si has tenido una experiencia negativa, te has sentido perjudicado/a o consideras que el seguro no ha cumplido con lo prometido, puedes ayudar:
 
-### 1. Reportar un nuevo caso
-Si quieres que tu caso aparezca en la web o simplemente quieres dejar constancia técnica del abuso, abre una **[Issue](https://github.com/alexdcd/wallapop-reviews/issues/new/choose)** usando la plantilla de "Reporte de Abuso".
+### 1. Reportar una incidencia
+Si quieres dejar constancia técnica de tu caso, abre una **[Issue](https://github.com/alexdcd/wallapop-reviews/issues/new/choose)** usando la plantilla de "Reporte de Incidencia". Por favor, limítate a relatar hechos objetivos y tu percepción personal del perjuicio.
 
 ### 2. Mejorar el contenido
-Si eres desarrollador, puedes proponer cambios en el contenido o en el diseño de la web (HTML/CSS) mediante un **Pull Request**.
+Si eres desarrollador, puedes proponer mejoras en la visualización de datos o en la estructura de la web mediante un **Pull Request**.
 
-### 3. Compartir evidencia
-Puedes adjuntar capturas de pantalla, correos electrónicos (pixelando datos personales) o enlaces a hilos de Twitter/ForoCotches/Trustpilot que demuestren el modus operandi de las estafas.
+### 3. Compartir evidencia documentada
+Puedes aportar pruebas (pixelando datos personales) o enlaces a testimonios públicos ya existentes que ayuden a documentar patrones de desprotección del usuario.
 
-## ⚖️ Aviso Legal
+## ⚖️ Aviso Legal e Informativo
 
-Este sitio se basa en testimonios públicos y experiencias personales compartidas en plataformas como Trustpilot, redes sociales y foros. El contenido tiene un propósito informativo y de crítica social amparado por la libertad de expresión.
+Este sitio se ampara en el derecho a la libertad de expresión e información (Art. 20 CE). Los contenidos se basan en:
+-   **Testimonios públicos** compartidos por usuarios en plataformas abiertas.
+-   **Estadísticas agregadas** de sitios de reseñas verificables.
+-   **Experiencias personales** de los colaboradores.
+
+Este proyecto NO realiza acusaciones judiciales directas de carácter delictivo. El uso de términos coloquiales debe entenderse siempre desde la perspectiva de la opinión del consumidor y la crítica social. No constituye asesoramiento legal profesional.
 
 ## 🛠️ Tecnologías
 
 -   HTML5 / CSS3 (Vanilla)
 -   Diseño responsive y minimalista.
--   Optimizado para bots de IA y motores de búsqueda.
+-   Optimizado para el análisis de datos por sistemas de IA.
 
 ---
-Creado por [Alex DC](https://github.com/alexdcd)
+Gestionado por [Alex DC](https://github.com/alexdcd)
