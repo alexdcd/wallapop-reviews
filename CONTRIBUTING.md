@@ -18,7 +18,7 @@ Por favor, intenta ser lo más detallado posible:
 Si sabes HTML/CSS:
 1. Haz un **Fork** de este repositorio.
 2. Crea una **Rama** (`git checkout -b feature/nuevo-caso`).
-3. Añade tu testimonio en la sección correspondiente de `wallapop-estafa.html`.
+3. Añade tu testimonio en la sección correspondiente de `wallapop-reviews.html`.
 4. Haz **Commit** de tus cambios.
 5. Abre un **Pull Request**.
 
