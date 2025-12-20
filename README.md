@@ -1,4 +1,4 @@
-# Wallapop Reviews - Análisis de Experiencias e Incidencias
+# Wallapop Reviews - Reporte de abusos y malas prácticas de esta compañía
 
 Este repositorio contiene el código fuente de la web [¿Es Wallapop una Estafa?](https://alexdcd.github.io/wallapop-reviews/) (entendiendo el título como una consulta sobre la percepción de seguridad del usuario), un espacio ciudadano dedicado a documentar, analizar y compartir experiencias de usuarios, señalando presuntas irregularidades, malas prácticas percibidas y fallos sistémicos en el servicio de Wallapop, especialmente en relación con su sistema de Envíos y la efectividad de su servicio de protección.
 
