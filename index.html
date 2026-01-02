@@ -1146,7 +1146,7 @@
                     <span class="loss-label">Precio de venta perdido</span>
                 </div>
                 <div class="loss-item">
-                    <span class="loss-value">15 días</span>
+                    <span class="loss-value" id="days-without-resolution">35 días</span>
                     <span class="loss-label">Gestiones sin resolución</span>
                 </div>
                 <div class="loss-item">
@@ -1195,14 +1195,13 @@
                         style="font-family: 'JetBrains Mono', monospace; font-size: 0.8rem; color: var(--red); font-weight: bold; display: block; margin-bottom: 0.5rem;">[ACTUALIZACIÓN
                         2 DE ENERO, 2026]</span>
                     <h3>Sustitución de Mercancía y Extracción de Componentes (29 de Diciembre)</h3>
-                    <p>Tras 15 días sin disponer de mi equipo ni del dinero de la venta, el 29 de diciembre recibí lo
-                        que Wallapop denomina la "devolución" del producto. Es imperativo aclarar que no se trata de un
-                        caso de daños por transporte, sino de un acto premeditado de sustitución de mercancía (vamos lo
-                        que es una estafa y robo).</p>
+                    <p>Tras 32 días sin disponer de mi equipo ni del dinero de la venta, el 29 de diciembre recibí lo
+                        que Wallapop denomina la "devolución" del producto. Y sorpresa...</p>
                     <p><strong>El comprador no devolvió el equipo original enviado.</strong> En su lugar, hizo entrega
                         de una unidad manipulada: con la <strong>carcasa abierta y sin tornillos</strong>, con
                         <strong>componentes internos sustraídos</strong> (presumiblemente la placa base y otros
-                        elementos críticos) y con <strong>partes quemadas y rotas</strong>. El equipo original enviado
+                        elementos críticos) y con <strong>partes quemadas, inservibles y rotas</strong>. El equipo
+                        original enviado
                         era una unidad nueva, en su embalaje de fábrica y sin uso previo.
                     </p>
                     <p><strong>Hechos probados:</strong> El estafador ha hecho uso de la plataforma para apropiarse de
@@ -1622,6 +1621,20 @@
             }
         }
     }
+    </script>
+    <script>
+        // Contador dinámico de días sin resolución (desde el inicio del conflicto el 28 de Noviembre de 2025)
+        function updateDaysCounter() {
+            const startDate = new Date('2025-11-28');
+            const today = new Date();
+            const diffTime = Math.abs(today - startDate);
+            const diffDays = Math.floor(diffTime / (1000 * 60 * 60 * 24));
+            const counterElement = document.getElementById('days-without-resolution');
+            if (counterElement) {
+                counterElement.innerText = diffDays + ' días y contando';
+            }
+        }
+        updateDaysCounter();
     </script>
 </body>
 
